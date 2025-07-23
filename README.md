@@ -39,14 +39,14 @@ The model consists of dense layers with dropout regularization to prevent overfi
 It's trained using binary cross-entropy loss and evaluated using accuracy, precision, recall, and F1-score. <br/>
 
 
-**Evaluation & Reporting**
+### Evaluation & Reporting
 
 Once trained, the model outputs performance metrics including a classification report and a confusion matrix.
 
 Predictions are tested on held-out test data to evaluate real-world performance. <br/>
 
 
-**Live Detection**
+### Live Detection
 
 New data samples can be fed into the system.
 
