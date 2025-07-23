@@ -21,7 +21,7 @@ Future extensions for anomaly detection and explainability
 ⚙️ How It Works
 ===================
 
-##Data Preprocessing
+## Data Preprocessing
 
 The system loads a CSV dataset containing features and an is_threat label (0 or 1).
 
@@ -30,7 +30,7 @@ Features are scaled using StandardScaler to ensure consistent input to the neura
 The dataset is split into training and testing sets (80/20 split by default).<br/>
 
 
-##Model Training
+## Model Training
 
 A Multi-Layer Perceptron (MLP) model is built using Keras.
 
