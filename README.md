@@ -27,7 +27,7 @@ The system loads a CSV dataset containing features and an is_threat label (0 or 
 
 Features are scaled using StandardScaler to ensure consistent input to the neural network.
 
-The dataset is split into training and testing sets (80/20 split by default).
+The dataset is split into training and testing sets (80/20 split by default).<br/>
 
 
 **Model Training**
@@ -36,21 +36,21 @@ A Multi-Layer Perceptron (MLP) model is built using Keras.
 
 The model consists of dense layers with dropout regularization to prevent overfitting.
 
-It's trained using binary cross-entropy loss and evaluated using accuracy, precision, recall, and F1-score.
+It's trained using binary cross-entropy loss and evaluated using accuracy, precision, recall, and F1-score. <br/>
 
 
 **Evaluation & Reporting**
 
 Once trained, the model outputs performance metrics including a classification report and a confusion matrix.
 
-Predictions are tested on held-out test data to evaluate real-world performance.
+Predictions are tested on held-out test data to evaluate real-world performance. <br/>
 
 
 **Live Detection**
 
 New data samples can be fed into the system.
 
-The system scales the input and returns a binary threat prediction along with a confidence score.
+The system scales the input and returns a binary threat prediction along with a confidence score. <br/>
 
 
 ▶️ How to Run
