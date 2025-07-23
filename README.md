@@ -3,7 +3,7 @@ This Python-based Threat Detection System uses machine learning to identify and 
 
 
 🔍 What It Does
-
+=================
 
 The system ingests a dataset containing labeled examples of both benign and malicious activity (e.g., network events, login attempts), then preprocesses the data, trains a deep learning model, and evaluates its performance in detecting threats.
 
@@ -19,7 +19,7 @@ Future extensions for anomaly detection and explainability
 
 
 ⚙️ How It Works
-
+===================
 
 Data Preprocessing
 
@@ -51,7 +51,7 @@ The system scales the input and returns a binary threat prediction along with a 
 
 
 ▶️ How to Run
-
+===============
 
 Run this command in the terminal to downlaod the dependancies the program needs:
 
