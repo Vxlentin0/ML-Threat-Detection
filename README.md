@@ -29,6 +29,7 @@ Features are scaled using StandardScaler to ensure consistent input to the neura
 
 The dataset is split into training and testing sets (80/20 split by default).
 
+
 **Model Training**
 
 A Multi-Layer Perceptron (MLP) model is built using Keras.
@@ -37,11 +38,13 @@ The model consists of dense layers with dropout regularization to prevent overfi
 
 It's trained using binary cross-entropy loss and evaluated using accuracy, precision, recall, and F1-score.
 
+
 **Evaluation & Reporting**
 
 Once trained, the model outputs performance metrics including a classification report and a confusion matrix.
 
 Predictions are tested on held-out test data to evaluate real-world performance.
+
 
 **Live Detection**
 
